@@ -1,28 +1,16 @@
-# shell脚本基础
+**shell脚本基础**
+
+------
+
+
 
 > 从此运营变得很轻松
-
 
 
 shell简介：shell是一种脚本语言，可以使用逻辑判断、循环等语法，可以自定义函数，是系统命令的集合
 
 
-
-### 文章目录
-
-- - - [shell脚本结构和执行方法](#shell_4)
-    - [date命令的用法](#date_17)
-    - [shell中变量的用法](#shell_79)
-    - [shell逻辑判断语法](#shell_148)
-    - [if判断文件或目录的属性](#if_242)
-    - [if判断的一些特殊用法](#if_261)
-    - [shell中case判断用法](#shellcase_299)
-    - [for、while循环](#forwhile_372)
-    - [break、continue、exit](#breakcontinueexit_460)
-    - [shell中的函数](#shell_550)
-    - [shell中的数组](#shell_618)
-
-
+[TOC]
 
 ### shell脚本结构和执行方法
 
