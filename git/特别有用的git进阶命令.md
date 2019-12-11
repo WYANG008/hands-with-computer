@@ -41,8 +41,4 @@
 ★★★★
 **作用**
 列出某个指针的所有移动记录。指针包括 <code>HEAD</code>，branch，tag 等。“移动“包括 <em>commit</em>, <em>checkout</em>, <em>pull</em> 等。用文字很难描述，还是给一张图吧
-![alt text](../blob/master/img/git-reflog.png)
-
-![](/Users/ali-220237n/dev/hands-with-computer/img/git-reflog.png)
-
-![git-reflog](/Users/ali-220237n/dev/hands-with-computer/img/git-reflog.png)
+![alt text](../tree/master/img/git-reflog.png)
