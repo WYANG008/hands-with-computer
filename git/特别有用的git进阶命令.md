@@ -26,13 +26,13 @@
 
 > git stash list
 
-**作用
+**作用**
 
 列出所有 stash 记录。上面如果在 <code>git stash</code> 时输入了注释的话，这时候就可以看到。
 
 > git stash apply
 
-**作用
+**作用**
 
 和 <code>git stash pop</code> 基本相同，不过不会把 stash 记录从列表中删除，也就是说可以多次 <code>git apply</code> 同一条 stash 记录。主要用于你不确定最近的一条 stash 记录是否正确时。
 
@@ -43,7 +43,13 @@
 **实用度**
 
 ★★★★
+
 **作用**
 
 列出某个指针的所有移动记录。指针包括 <code>HEAD</code>，branch，tag 等。“移动“包括 <em>commit</em>, <em>checkout</em>, <em>pull</em> 等。用文字很难描述，还是给一张图吧
 ![alt text](../img/git-reflog.png)
+
+**解说**
+
+这条命令可能是知名度和有用程度相差最大的 git 命令了。比如在 <em>忘了最近新切的分支叫什么名字了</em>，*reset过后又想恢复之前的状态*，*merge了又想撤销* 等等时候，都有这条命令的用武之地。
+
