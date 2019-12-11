@@ -1,0 +1,28 @@
+### 规则
+- 不要在if 语句中使用等号= 进行赋值操作。
+- 不要覆盖父类的静态方法和私有方法。
+- 不要覆盖父类的属性。
+- 把内部类定义成私有类.
+- 去掉接口中多余的定义（不使用 public, abstract, static, final 等，这是接口中默认的）。
+- 不要硬编码 ‘\n’和‘\r’作为换行符号。
+- 使用 System.arraycopy() ，不使用循环来复制数组。
+- 避免不必要的 instanceof 比较运算和类造型运算
+- 不要对浮点数进行比较运算，尤其是不要进行 ==, !=运算，减少 >, < 运算。
+- 实现 equals() 方法时，先用 getClass() 或者 instanceof 进行类型比较，通过后才能继续比较。
+- 使用 equals() 比较两个类的值是否相同。
+- 方法的参数名不要和类中的方法名相同。
+- 在类中对于没有实现的接口，应该定义成抽象方法，类应该定义成抽象类。
+- 不要在抽象类的构建器中调用抽象方法。
+- 重载 equals() 方法的同时，也应该重载 hashCode() 方法。
+- 在捕获违例的时候，不使用 Exception, RuntimeException, Throwable，尽可能使用它们的子类。
+- main() 方法必须是 public static void main(String[])
+- 对于被除数或者被乘数为2的n次方的乘除运算使用移位运算符 >>, << 。
+- 一个字符的连接使用‘ ’而不使用 “ ”，如：String a = b + ‘c’。
+- 不要在循环体内调用同步方法和使用 try—catch 块。
+- 常量字符串使用 String, 非常量字符串使用 StringBuffer 。
+- 尽可能的使用局部变量进行运算。
+- 尽可能少的使用 ‘!’操作符
+- 常量必须定义为 final 。
+- 使用 StringTokenizer 代替 indexOf() 和 substring() 。
+- 国际化：不要进行字符串连接操作，使用MessageFormat 。
+- 国际化：不要使用 String 类的 compareTo(), equals() 方法。
