@@ -1,4 +1,5 @@
-**shell脚本基础**
+
+# shell脚本基础
 
 ------
 
@@ -6,11 +7,21 @@
 
 > 从此运营变得很轻松
 
-
 shell简介：shell是一种脚本语言，可以使用逻辑判断、循环等语法，可以自定义函数，是系统命令的集合
 
+**Table of Contents** 
+    - [shell脚本结构和执行方法](#shell%E8%84%9A%E6%9C%AC%E7%BB%93%E6%9E%84%E5%92%8C%E6%89%A7%E8%A1%8C%E6%96%B9%E6%B3%95)
+    - [date命令的用法](#date%E5%91%BD%E4%BB%A4%E7%9A%84%E7%94%A8%E6%B3%95)
+    - [shell中变量的用法](#shell%E4%B8%AD%E5%8F%98%E9%87%8F%E7%9A%84%E7%94%A8%E6%B3%95)
+    - [shell逻辑判断语法](#shell%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E8%AF%AD%E6%B3%95)
+    - [if判断文件或目录的属性](#if%E5%88%A4%E6%96%AD%E6%96%87%E4%BB%B6%E6%88%96%E7%9B%AE%E5%BD%95%E7%9A%84%E5%B1%9E%E6%80%A7)
+    - [if判断的一些特殊用法](#if%E5%88%A4%E6%96%AD%E7%9A%84%E4%B8%80%E4%BA%9B%E7%89%B9%E6%AE%8A%E7%94%A8%E6%B3%95)
+    - [shell中case判断用法](#shell%E4%B8%ADcase%E5%88%A4%E6%96%AD%E7%94%A8%E6%B3%95)
+    - [for、while循环](#forwhile%E5%BE%AA%E7%8E%AF)
+    - [break、continue、exit](#breakcontinueexit)
+    - [shell中的函数](#shell%E4%B8%AD%E7%9A%84%E5%87%BD%E6%95%B0)
+    - [shell中的数组](#shell%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84)
 
-[TOC]
 
 ### shell脚本结构和执行方法
 
