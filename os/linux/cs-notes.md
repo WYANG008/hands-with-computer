@@ -1,6 +1,6 @@
 
 # linux notes 
-> from cs-notes[!https://github.com/CyC2018/CS-Notes/blob/master/notes/Linux.md]
+> from [cs-notes](https://github.com/CyC2018/CS-Notes/blob/master/notes/Linux.md)
 
 <!-- GFM-TOC -->
 * [前言](#前言)
