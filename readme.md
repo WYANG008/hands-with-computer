@@ -4,3 +4,6 @@ this repo contains everhting that i have learnt in interacting with computer. wh
 - coding best practice
 - useful command line
 - technology summary
+
+### notes
+- latex equation is supported by vs code extension Markdown+Math
