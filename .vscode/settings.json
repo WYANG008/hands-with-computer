@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "/anaconda3/envs/py2/bin/python"
+  "python.pythonPath": "/anaconda3/envs/py2/bin/python",
+  "[markdown]": {
+    // 快速补全
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+  }
 }
