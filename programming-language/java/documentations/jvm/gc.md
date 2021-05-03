@@ -25,15 +25,7 @@
 > -开头 标准 所有hotspot都支持, 如java -version
 > -X开头 非标准，特定版本hotspot支持特定命令 如-Xms<size> -Xmx<size> (java -X)
 > -XX开头, 不稳定， 下个版本可能取消
-```
-java -version
-java -X //可以查看到非标参数
-java -XX:+PringFlagsWithComments  // 只有debug版本 能用
-java -XX:+PrintFlagsFinal
-java -XX:+PrintFlagsInitial
-java -XX:+PrintCommandLineFlags
-java -XX:+PrintGC
-```
+
 
 ### 一个案例理解常用工具
 #### 测试代码
